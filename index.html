@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Annuity | New England Precious Metals Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
+
+    <!-- Header Navigation -->
+    <header class="border-b border-slate-800 bg-slate-950/50 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- Our Geometric Nexus Branding Style -->
+                <div class="w-8 h-8 rounded bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20">
+                    <i class="fa-solid fa-cubes text-slate-950 text-sm"></i>
+                </div>
+                <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">APEX ANNUITY</span>
+            </div>
+            <span class="text-xs font-semibold text-amber-500 bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/20 tracking-wider uppercase">Live Market Node</span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-10 space-y-12">
+        
+        <!-- Hero Context Section -->
+        <section class="text-center space-y-4">
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Greater Boston Commodity &amp; Scrap Index</h1>
+            <p class="text-slate-400 max-w-xl mx-auto text-base sm:text-lg">
+                Real-time spot data and localized valuation benchmarks for high-intent asset management across Malden, Saugus, and the North Shore.
+            </p>
+        </section>
+
+        <!-- LIVE PRICE CARDS GRID -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Gold Card -->
+            <div class="bg-slate-950 border border-slate-800 p-6 rounded-xl relative overflow-hidden group hover:border-amber-500/30 transition shadow-xl">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-amber-500 group-hover:scale-110 transition duration-300">
+                    <i class="fa-solid fa-coins text-6xl"></i>
+                </div>
+                <h3 class="text-xs font-bold tracking-widest text-amber-500 uppercase">Gold Spot / Melt Values</h3>
+                <div class="mt-4 flex items-baseline space-x-2">
+                    <span class="text-3xl font-black tracking-tight" id="gold-spot">$4,224.40</span>
+                    <span class="text-xs text-slate-500">/ troy oz</span>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/60 grid grid-cols-2 gap-4">
+                    <div>
+                        <span class="block text-[10px] uppercase tracking-wider text-slate-500">Pure 24K Gram</span>
+                        <span class="text-base font-bold text-slate-200" id="gold-24k">$135.82</span>
+                    </div>
+                    <div>
+                        <span class="block text-[10px] uppercase tracking-wider text-slate-400 font-semibold">14K Scrap Limit</span>
+                        <span class="text-base font-bold text-amber-400" id="gold-14k">$79.22</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Silver Card -->
+            <div class="bg-slate-950 border border-slate-800 p-6 rounded-xl relative overflow-hidden group hover:border-slate-700/50 transition shadow-xl">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-slate-400 group-hover:scale-110 transition duration-300">
+                    <i class="fa-solid fa-cubes text-6xl"></i>
+                </div>
+                <h3 class="text-xs font-bold tracking-widest text-slate-400 uppercase">Silver Spot / Melt Values</h3>
+                <div class="mt-4 flex items-baseline space-x-2">
+                    <span class="text-3xl font-black tracking-tight" id="silver-spot">$67.35</span>
+                    <span class="text-xs text-slate-500">/ troy oz</span>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/60 grid grid-cols-2 gap-4">
+                    <div>
+                        <span class="block text-[10px] uppercase tracking-wider text-slate-500">Pure Fine Gram</span>
+                        <span class="text-base font-bold text-slate-200" id="silver-pure">$2.17</span>
+                    </div>
+                    <div>
+                        <span class="block text-[10px] uppercase tracking-wider text-slate-400 font-semibold">925 Sterling</span>
+                        <span class="text-base font-bold text-slate-300" id="silver-925">$2.01</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THE HIGH-TICKET AFFILIATE MONETIZATION BANNER -->
+        <section class="bg-gradient-to-br from-slate-950 to-slate-900 border-2 border-amber-500/20 p-8 rounded-2xl relative overflow-hidden shadow-2xl">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+            <div class="max-w-2xl space-y-6 relative z-10">
+                <div class="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-md text-amber-500 text-xs font-bold uppercase tracking-wider">
+                    <i class="fa-solid fa-shield-halved"></i> <span>Institutional Wealth Protection</span>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight">
+                    Safeguard Greater Boston Retirement Wealth
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                    Are you holding an existing IRA, 401(k), or TSP balance over $50,000? Leaving your nest egg exposed to market corrections and systemic inflation carries substantial risk. Move your capital securely into physical, IRS-approved gold &amp; silver vaults with institutional-grade compliance.
+                </p>
+                <!-- Replace '#' with your Augusta link once your manual review finishes -->
+                <a href="#" target="_blank" class="inline-flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold px-6 py-3.5 rounded-lg shadow-xl shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] transition-all w-full sm:w-auto text-center">
+                    <span>Request Free Wealth Protection Kit</span>
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- LOCAL NORTH SHORE STORE DATA LAYER -->
+        <section class="space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                <h3 class="text-lg font-bold tracking-tight flex items-center space-x-2">
+                    <i class="fa-solid fa-map-location-dot text-amber-500 text-sm"></i>
+                    <span>North Shore Physical Appraisal Nodes</span>
+                </h3>
+                <span class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Updated Weekly</span>
+            </div>
+            
+            <div class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-950">
+                <table class="w-full text-left border-collapse text-sm">
+                    <thead>
+                        <tr class="bg-slate-900/60 border-b border-slate-800 text-slate-400 font-medium text-xs tracking-wider uppercase">
+                            <th class="p-4">Location / Area</th>
+                            <th class="p-4">Verification State</th>
+                            <th class="p-4 text-right">Target Baseline</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/50 font-normal text-slate-300">
+                        <tr class="hover:bg-slate-900/30 transition">
+                            <td class="p-4 font-semibold text-white">Malden Hub Outlets</td>
+                            <td class="p-4 text-xs"><span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded">Monitored</span></td>
+                            <td class="p-4 text-right font-mono text-slate-400">70% - 82% Melt</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/30 transition">
+                            <td class="p-4 font-semibold text-white">Saugus Route 1 Strip</td>
+                            <td class="p-4 text-xs"><span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded">Monitored</span></td>
+                            <td class="p-4 text-right font-mono text-slate-400">68% - 80% Melt</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/30 transition">
+                            <td class="p-4 font-semibold text-white">Brockton Regional Exchanges</td>
+                            <td class="p-4 text-xs"><span class="bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2 py-0.5 rounded">Reviewing</span></td>
+                            <td class="p-4 text-right font-mono text-slate-400">65% - 78% Melt</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-950 py-8 mt-20 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Apex Annuity. All corporate rights reserved. Data indexed via global spot feeds.</p>
+    </footer>
+
+</body>
+</html>
